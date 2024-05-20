@@ -66,7 +66,7 @@ const area3 = document.getElementById("area3");
 const dayimg = document.getElementById("dayimg");
 
 btn.addEventListener("click", () => {
-    const token = "YOUR API KEY";
+    const token = "apikey 0XyYUfdg5igLsPHTVVHvJd:2GWNVEWaYvs6fS0lEPXt81";
     const apiUrl = `https://api.collectapi.com/weather/getWeather?data.lang=tr&data.city=${cityInput.value}`;
 
     dateArea.innerText = day + " " + monthName + " " + year;
